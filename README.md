@@ -57,34 +57,3 @@ Log in to Facebook once to connect to the dashboard.
 # Usage
 Once logged in, the dashboard will display and allow you to manage posts for both Facebook and Threads. You can post simultaneously to both platforms with a single click
 
-where able to connect with facebook and threads and able to manage the both social media post in the custom desk top and able to post at a time with single click in both social media
-
-
-prerequesit 
-create a developer account and create app useing the following doc
-https://developers.facebook.com/docs/development/create-an-app/
-create the another app for the threads api using below following doc
-https://developers.facebook.com/docs/development/create-an-app/threads-use-case/
-
-# Facebook API settingd
-FACEBOOK_APP_ID = "<FACEBOOK_APP_ID>"
-FACEBOOK_APP_SECRET ="<FACEBOOK_APP_SECRET>"
-FACEBOOK_REDIRECT_URI="set a redirect uri which set in the app"
-
-# Threads API settings
-THREADS_APP_ID = '<THREADS_APP_ID>'
-THREADS_APP_SECRET = '<THREADS_APP_SECRET>'
-THREADS_REDIRECT_URI="set a redirect uri which set in the app"
-
-install the dependance with pip install -r requirements.txt
-
-run the project
-python manage.py runserver
-
-register with uer details 
-
-login with ur details
-
-login facebook once 
-
-it will connect to the dash board as shown in the screenshots 
